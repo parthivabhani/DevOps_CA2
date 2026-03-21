@@ -76,10 +76,5 @@ Jenkins build screenshots are included in the Screenshots folder showing:
 
 ---
 
-## GitHub Repository
-https://github.com/parthivabhani/DevOps_CA2
-
----
-
 ## Author
 Parthiv Abhani
