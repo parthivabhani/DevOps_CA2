@@ -25,26 +25,6 @@ It demonstrates frontend development, automated testing using Selenium, and Cont
 
 ---
 
-## Project Structure
-Parthiv_Abhani_DevOps_CA2/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── requirements.txt
-├── Jenkinsfile
-│
-├── tests/
-│   └── test_form.py
-│
-├── Screenshots/
-│   ├── Build Completed.png
-│   └── Build Log.png
-│
-└── README.md
-
----
-
 ## Form Validation (JavaScript)
 - Student Name cannot be empty  
 - Email must be in valid format  
