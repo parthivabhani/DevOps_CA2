@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial; }
+    </style>
+</head>
+<body>
+
+<h2>Student Feedback Form</h2>
+
+<form id="feedbackForm">
+    <input type="text" id="name" placeholder="Student Name"><br>
+
+    <input type="email" id="email" placeholder="Email ID"><br>
+
+    <input type="text" id="mobile" placeholder="Mobile Number"><br>
+
+    <select id="department">
+        <option value="">Select Department</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+    </select><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br>
+
+    <textarea id="feedback" placeholder="Feedback Comments"></textarea><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<p id="message"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
